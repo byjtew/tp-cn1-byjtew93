@@ -1,4 +1,5 @@
 set xlabel "Année"
 set ylabel "T(K)"
-plot "reference.dat"
+set logscale xy 2
+plot "errors.dat" with lines
 pause -1
